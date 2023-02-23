@@ -60,7 +60,7 @@ nav {
 
 	header nav {
 		position: fixed;
-		top: 0;
+		top: -100vh;
 		left: 0;
 		height: 100%;
 		width: 100%;
@@ -71,11 +71,10 @@ nav {
 		gap: 1.5rem;
 		background-color: var(--mainColor);
 		transition: 1s;
-		transform: translateY(-100vh);
 	}
 
 	header .responsive_nav {
-		transform: none;
+		transform: translateY(100vh);
 	}
 
 	nav .nav-close-btn {

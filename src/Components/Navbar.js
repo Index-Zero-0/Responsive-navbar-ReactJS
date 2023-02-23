@@ -6,7 +6,9 @@ function Navbar() {
 	const navRef = useRef();
 
 	const showNavbar = () => {
-		navRef.current.classList.toggle("responsive_nav");
+		navRef.current.classList.toggle(
+			"responsive_nav"
+		);
 	};
 
 	return (
@@ -23,7 +25,9 @@ function Navbar() {
 					<FaTimes />
 				</button>
 			</nav>
-			<button className="nav-btn" onClick={showNavbar}>
+			<button
+				className="nav-btn"
+				onClick={showNavbar}>
 				<FaBars />
 			</button>
 		</header>
