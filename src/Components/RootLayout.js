@@ -15,10 +15,10 @@ function RootLayout() {
 	return (
         <>
        
-		<header>
+		<header >
 			<h3>LOGO</h3>
 			<nav ref={navRef} onClick={showNavbar}>
-				<NavLink to="/">Home </NavLink>
+				<NavLink to="/"   >Home </NavLink>
 				<NavLink to="/work">My work</NavLink>
 				<NavLink to="/blog">Blog</NavLink>
 				<NavLink to="/me">about me</NavLink>
