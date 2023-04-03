@@ -1,8 +1,9 @@
 import { useRef } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import "../Styles/main.css";
+import { Outlet , NavLink  } from "react-router-dom";
 
-function Navbar() {
+function RootLayout() {
 	const navRef = useRef();
 
 	const showNavbar = () => {
@@ -12,13 +13,15 @@ function Navbar() {
 	};
 
 	return (
-		<header>
+        <>
+       
+		<header >
 			<h3>LOGO</h3>
-			<nav ref={navRef} >
-				<a href="/">Home </a>
-				<a href="/work">My work</a>
-				<a href="/blog">Blog</a>
-				<a href="/me">about me</a>
+			<nav ref={navRef} onClick={showNavbar}>
+				<NavLink to="/"   >Home </NavLink>
+				<NavLink to="/tabeau">My work</NavLink>
+				<NavLink to="/blog">Blog</NavLink>
+				<NavLink to="/me">about me</NavLink>
 				<button
 					className="nav-btn nav-close-btn"
 					onClick={showNavbar}>
@@ -31,7 +34,12 @@ function Navbar() {
 				<FaBars />
 			</button>
 		</header>
+        <main>
+            <Outlet />
+        </main>
+        </>
+    
 	);
 }
 
-export default Navbar;
+export default RootLayout;

@@ -1,0 +1,125 @@
+{
+  "auth": {
+    "questlang78c3f2f2": {
+      "customAuth": false,
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito",
+      "serviceType": "imported"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_auth_questlang78c3f2f2_allowUnauthenticatedIdentities": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "questlang78c3f2f2"
+        }
+      ]
+    },
+    "AMPLIFY_auth_questlang78c3f2f2_authRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "questlang78c3f2f2"
+        }
+      ]
+    },
+    "AMPLIFY_auth_questlang78c3f2f2_authRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "questlang78c3f2f2"
+        }
+      ]
+    },
+    "AMPLIFY_auth_questlang78c3f2f2_identityPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "questlang78c3f2f2"
+        }
+      ]
+    },
+    "AMPLIFY_auth_questlang78c3f2f2_identityPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "questlang78c3f2f2"
+        }
+      ]
+    },
+    "AMPLIFY_auth_questlang78c3f2f2_nativeClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "questlang78c3f2f2"
+        }
+      ]
+    },
+    "AMPLIFY_auth_questlang78c3f2f2_unauthRoleArn": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "questlang78c3f2f2"
+        }
+      ]
+    },
+    "AMPLIFY_auth_questlang78c3f2f2_unauthRoleName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "questlang78c3f2f2"
+        }
+      ]
+    },
+    "AMPLIFY_auth_questlang78c3f2f2_userPoolId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "questlang78c3f2f2"
+        }
+      ]
+    },
+    "AMPLIFY_auth_questlang78c3f2f2_userPoolName": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "questlang78c3f2f2"
+        }
+      ]
+    },
+    "AMPLIFY_auth_questlang78c3f2f2_webClientId": {
+      "usedBy": [
+        {
+          "category": "auth",
+          "resourceName": "questlang78c3f2f2"
+        }
+      ]
+    },
+    "AMPLIFY_storage_questlang843b6ca5_bucketName": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "questlang843b6ca5"
+        }
+      ]
+    },
+    "AMPLIFY_storage_questlang843b6ca5_region": {
+      "usedBy": [
+        {
+          "category": "storage",
+          "resourceName": "questlang843b6ca5"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "questlang843b6ca5": {
+      "dependsOn": [],
+      "providerPlugin": "awscloudformation",
+      "service": "S3",
+      "serviceType": "imported"
+    }
+  }
+}
