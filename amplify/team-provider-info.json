@@ -1,0 +1,38 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-questlang-dev-92542-authRole",
+      "UnauthRoleArn": "arn:aws:iam::390048945559:role/amplify-questlang-dev-92542-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::390048945559:role/amplify-questlang-dev-92542-authRole",
+      "Region": "us-east-1",
+      "DeploymentBucketName": "amplify-questlang-dev-92542-deployment",
+      "UnauthRoleName": "amplify-questlang-dev-92542-unauthRole",
+      "StackName": "amplify-questlang-dev-92542",
+      "StackId": "arn:aws:cloudformation:us-east-1:390048945559:stack/amplify-questlang-dev-92542/600a0280-d1e8-11ed-b23b-0a41fe0ace1b",
+      "AmplifyAppId": "d2tudlngu40qkf"
+    },
+    "categories": {
+      "auth": {
+        "questlang78c3f2f2": {
+          "userPoolId": "us-east-1_z1O41nXjQ",
+          "userPoolName": "langeva237c20e6_userpool_237c20e6-dev",
+          "webClientId": "28l62kg0pma0amreqcbasgkf7d",
+          "nativeClientId": "6ig1efo7nmnri3khusq32mk1od",
+          "identityPoolId": "us-east-1:d58e1e8f-5aab-4ba4-90da-412b3b76b9de",
+          "identityPoolName": "langeva237c20e6_identitypool_237c20e6__dev",
+          "allowUnauthenticatedIdentities": false,
+          "authRoleArn": "arn:aws:iam::390048945559:role/amplify-langeva-dev-102205-authRole",
+          "authRoleName": "amplify-langeva-dev-102205-authRole",
+          "unauthRoleArn": "arn:aws:iam::390048945559:role/amplify-langeva-dev-102205-unauthRole",
+          "unauthRoleName": "amplify-langeva-dev-102205-unauthRole"
+        }
+      },
+      "storage": {
+        "questlang843b6ca5": {
+          "bucketName": "langeval2023bh102205-dev",
+          "region": "us-east-1"
+        }
+      }
+    }
+  }
+}
